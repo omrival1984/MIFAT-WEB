@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import { pages, stats } from '@/data/site';
 const cards = pages.filter(p => ['activity','service','site'].includes(p.category)).slice(0,9);
 export default function Home(){return <main>
   <section className="relative overflow-hidden bg-forest px-6 py-24 text-white md:py-32">
